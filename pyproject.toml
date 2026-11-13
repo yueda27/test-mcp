@@ -1,0 +1,14 @@
+[project]
+name = "test-mcp-server"  
+dynamic = ["version"]
+description = "Testing out FastMCP"
+readme = "README.md"  # Optional
+requires-python = ">=3.12"
+authors = [
+    { name = "Yue Da, Chua", email = "chua_yueda@hotmail.com" }
+]
+
+
+dependencies = [
+    "fastmcp[apps]"
+]
